@@ -1,0 +1,25 @@
+      .emphasized {
+        color: #106db3;
+      }
+
+
+    .center {text-align: center;}
+
+    .lborder {border-left: 2px solid rgba(128, 128, 128, 0.37); padding: 15px ; }
+
+.left { float: left;}
+
+.bborder {border-bottom: 2px solid rgba(128, 128, 128, 0.37); padding-bottom: 40px}
+
+.fblock{background-color: #083452;
+                   color:grey ;
+                   border-bottom-left-radius: 6px;
+                   border-bottom-right-radius: 6px;
+                    padding-bottom: 15px;
+
+
+}
+.pleft{padding-left: 40px;
+
+     padding-top: 30px;
+  }
