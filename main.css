@@ -7,19 +7,98 @@
 
     .lborder {border-left: 2px solid rgba(128, 128, 128, 0.37); padding: 15px ; }
 
-.left { float: left;}
+.left ul li
+{ float: left;
+  border; 2px ;
+  width:100px;
 
-.bborder {border-bottom: 2px solid rgba(128, 128, 128, 0.37); padding-bottom: 40px}
+list-style: none;}
+
+.bborder { padding-bottom: 40px}
 
 .fblock{background-color: #083452;
                    color:grey ;
                    border-bottom-left-radius: 6px;
                    border-bottom-right-radius: 6px;
                     padding-bottom: 15px;
-
+float:left;
+width: 100%;
 
 }
 .pleft{padding-left: 40px;
 
      padding-top: 30px;
   }
+
+#main-text
+{width: 66%;
+ float:left;
+
+}
+#popular_section{
+top border-top: 4px solid rgba(128, 128, 128, 0.37);
+
+}
+#popular_post{
+
+  padding-top:8px;
+  display:flex;
+/*   width: 100%;
+ margin: 0 auto;
+  margin-bottom: 0;*/
+
+
+}
+.mppost1{
+  flex:1;
+
+  background-image: url("snppics/article-image-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.mppost2{
+  flex:1;
+
+  background-image: url("snppics/article-image-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+.mppost3{
+  flex:1;
+
+  background-image: url("snppics/article-image-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+.mppost4{
+  flex:1;
+
+  background-image: url("snppics/article-image-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+
+}
+  .mpptext{
+  text-align:right;
+  color:lightgrey;
+  padding-right: 20px;
+  padding-top: 280px;
+}
+#siteheader{
+  background-image: url("snppics/header.jpg");
+  height: 400px;
+  color:white;
+
+
+
+
+}
