@@ -36,7 +36,7 @@
           text-align: center;
           position: relative;
           /* top: 75px; */
-          font-family: Helvetica;
+          font-family: helvetica;
           font-weight: 600;
           font-size: 42px;
           margin-bottom: 15px;
@@ -129,11 +129,14 @@
 
       #siteheader {
           background-image: url("snppics/header.jpg");
-          height: 400px;
+          background-repeat: no-repeat;
+          height: 460px;
           color: white;
-          position: relative;
-          margin: 0 auto;
+          width: 90%;
+        /*  position: relative;
           margin: 30px;
+        */
+          margin: 0 auto;
           border-top-left-radius: 6px;
           border-top-right-radius: 6px;
 
@@ -157,17 +160,19 @@
 
       .left ul li {
           display: inline-block;
-          width: 150px;
+        /*  width: 150px;*/
           list-style-type: none;
           text-align: left;
       }
 
       nav ul li {
           display: inline-block;
-          padding:20px;
-          width: 120px;
+
+
           list-style-type: none;
-          background-color: lightgrey;
+
+          margin: 10px;
+          padding-left : 0px:
 
 
       }
@@ -183,3 +188,73 @@
           margin-right: 15px;
       }
 */
+.divspan{
+
+  background-color:lightblue;
+
+  height:30px
+
+
+}
+span img {
+  /*position : relative;
+  left: 0px;
+  background-color: darkgrey;
+  height:100%;*/
+  height: 10px;
+padding: 10px;
+margin: 0px;
+background-color: darkblue;
+}
+.iconimg
+{padding: 10px;
+    height: 15px;
+    background-color: darkblue;
+}
+
+.spancolor{
+  background-color: darkblue;
+  float:left;
+
+}
+
+.pstyle{
+  margin:0px;
+  height:30px;
+  width:160px;
+
+}
+.spantext{
+  position: relative;
+
+bottom: 11px;
+
+margin: 0 auto;
+margin: 10px;
+
+}
+nav ul{
+  padding-left: 0px;
+}
+
+.aboutnav{
+list-style: none;
+
+
+position : relative;
+left:850px;
+bottom: 280px;
+}
+
+.aboutnav > li{
+  display: inline-block;
+  padding :5px;
+
+}
+
+.aboutnav li a{
+  color: #083452;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
